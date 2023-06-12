@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color:#00030C;
+    --text-color:#FFFFFF;
+    --text-alternative-color:#C0C0C0;
+    --btn-color:#167BF7;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Inter;
+}
+
+.principal{
+    background-image: url("Background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-div{
+    margin: 0 8em;
+    align-self: center;
+}
+
+.principal__titulo{
+    font-size: 28px;
+    text-align: center;
+}
+
+.btn__container{
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--text-color);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.btn__secundario{
+    border: 2px solid var(--text-color);
+    background-color: transparent;
+}
+
+.container-aviso{
+    font-size: 0.75rem;
+    color: var(--text-alternative-color);
+}
+
+.imagem__principal{
+    margin: 1em 0 2em 0;
+}
+
+.secundario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 69px;
+}
+
+.imagem__secundaria{
+    width: 40%;
+}
+
+.secundario__texto{
+    width: 30%;
+}
+
+.secundario__titulo{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.aviso__secundario{
+    font-size: 1rem;
+    color: var(--text-alternative-color);   
+    margin-bottom: 2rem;
+}
+
+.btn__terceiro{
+    display: inline;
+}
+
+.terceiro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 69px;
+}
+
+
+.quartenario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 90vh;
+}
+
+.quintenario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    height: 60vh;
+}
+
+
+.titulo__dispositivos__favoritos{
+    font-size: 48px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    height: 30vh;
+}
+
+.footer div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer div a{
+    font-size: 2.75rem;
+}
+
+.logo__footer{
+    width: 76px;
+}
+
+.lista__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.items__footer{
+    gap: 16px;
+}
+
+.direitos__reservados{
+    margin-bottom: 1em;
+    font-size: 0.80rem;
+    font-weight: 400;
+    color: var(--text-alternative-color);
+}
+
+.container__direitos{
+    display: flex;
+    flex-direction: column;
+
+}
